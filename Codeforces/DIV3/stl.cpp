@@ -95,7 +95,7 @@ int main()
 	map<string,int> m1;
 	for(int i=0;i<n;i++){
 		string s;
-		m1[s]++;//
+		m1[s]++;
 	}//for storing unique string or intergers with frequency
 	for(auto pr1 : m1)
 		cout<<pr1.first << pr1.second;
