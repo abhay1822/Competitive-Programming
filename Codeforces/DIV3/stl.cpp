@@ -153,6 +153,9 @@ int main()
 	int a[8]={4,5,5,7,8,25};
 	sort(a,a+n);//starting of address nd ending 
 	sort(a,a+3);//here it only sort till 6 (a+3-1)
+	// Sort the vector in descending order
+    sort(vi.begin(), vi.end(), greater<int>());
+  
 
 	//LOWER & UPPER BOUND -->to use array need to be sorted
 
