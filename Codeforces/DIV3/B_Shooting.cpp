@@ -13,12 +13,10 @@ int main(){
     }
     sort(v.begin(),v.end(),greater<pair<int,int>>());
     int s=0;
-    ff(n){
+    ff(n)
         s+=v[i].first*i +1;
-    }
     cout<<s<<endl;
-    for(auto &va:v){
+    for(auto &va:v)
         cout<<va.second<<" ";
-    }
     cout<<endl;
 }
