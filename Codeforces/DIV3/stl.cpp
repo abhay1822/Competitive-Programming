@@ -193,5 +193,8 @@ int main()
 	cout<<all_of(vi.begin(),vi.end(),[](int xtt){return xtt>0;}); //checks all the elements 
 	cout<<any_of(vi.begin(),vi.end(),[](int xtt){return xtt>0;});//checks any the given is true returns true
 	cout<<none_of(vi.begin(),vi.end(),[](int xtt){return xtt>0;});//all should be true
+	//BinAry SEARCH
 
+	binary_search(vi.begin(),vi.end(), 4);
+	
 }
