@@ -196,5 +196,12 @@ int main()
 	//BinAry SEARCH
 
 	binary_search(vi.begin(),vi.end(), 4);
+
+	//to print the end elemnt
+	auto ti=vi.end();
+    --ti;
+    cout<<*ti<<" ";
+	//alternative of above 3lines
+	int x = *prev(vi.end());
 	
 }
