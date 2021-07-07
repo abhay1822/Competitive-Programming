@@ -95,6 +95,7 @@ int main()
 	map<string,int> m1;
 	for(int i=0;i<n;i++){
 		string s;
+		cin>>s;
 		m1[s]++;
 	}//for storing unique string or intergers with frequency
 	for(auto pr1 : m1)
@@ -203,5 +204,12 @@ int main()
     cout<<*ti<<" ";
 	//alternative of above 3lines
 	int x = *prev(vi.end());
+
+
+	   
+
+	
+
+
 	
 }
