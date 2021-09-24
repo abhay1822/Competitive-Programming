@@ -22,7 +22,7 @@ int main()
 	// a_arr[2]={3,4};
 	// //swappinng values in pair
 	// swap(a_arr[0],a_arr[2]);
-	////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////
 
 	//VECTOR -->> continuous store
 
@@ -204,6 +204,14 @@ int main()
     cout<<*ti<<" ";
 	//alternative of above 3lines
 	int x = *prev(vi.end());
+
+
+	//swapping using XOR
+	int xa=5,bx=6;
+	ax=ax^bx;
+	bx=bx^ax;
+	ax=ax^bx;
+	cout<<ax<<" "<<bx;
 
 
 	   
