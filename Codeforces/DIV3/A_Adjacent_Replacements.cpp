@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-#define ff(n) for(int i = 0; i <n ; ++ i)
+#define fff(n) for(int i = 0; i <n ; ++ i)
 int main(){
     int n;
     cin>>n;
     int a[n];
-    ff(n){
+    fff(n){
         cin>>a[i];
     }
-    ff(n){
+    fff(n){
         if(a[i]%2==0)
             a[i]--;
         cout<<a[i]<<" ";
